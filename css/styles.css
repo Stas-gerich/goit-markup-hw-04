@@ -1,0 +1,389 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+/* #region header */
+
+.header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container{
+    display: flex;
+    text-align: center;
+    width: 1158px;
+}
+
+.header-navigation{
+  display: flex;
+align-items: center;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+    
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+}
+
+.logo-span {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
+    display: flex;
+    margin-left: auto;
+    
+}
+
+.addres-list{
+    display: flex;
+    gap: 40px;
+    
+}
+
+.address-link {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
+}
+
+/* #endregion header */
+
+/* #region hero */
+
+.hero {
+    background-color: #2e2f42;
+   padding-top: 188px;
+   padding-bottom: 188px;
+}
+
+.hero-title {
+    display: block;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 48px;
+    max-width: 496px;
+    
+    
+}
+
+.hero-button {
+    display:block;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4d5ae5;
+    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    
+ 
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404bbf;
+}
+
+/* #endregion hero */
+
+/* #region Feature */
+
+.feature{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.visually-hidden {
+    visibility: hidden;
+}
+
+.feature-list{
+    display:flex;
+    gap: 24px;
+    
+}
+
+.feature-item{
+    /*width: calc((100% - 4 * 70px) / 3);*/
+    width: calc((100% - 72px) / 4);
+}
+
+.feature-title-list {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.feature-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* #endregion Feature */
+
+/* #region Our Team */
+
+.team {
+    background-color: #f4f4fd;
+}
+
+.team{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.team-title-item {
+    text-align: center;
+    margin-bottom: 8px;
+}
+ 
+.team-item {
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-title {
+    margin: 0 auto 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+    
+}
+
+.team-list{
+    display: flex;
+    gap: 24px;
+    
+}
+
+.team-container{
+    padding: 32px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #fff;
+    border: 0 4px;
+    
+        
+}
+
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+   
+}
+
+/* #endregion Our Team */
+
+/* #region Our Portfolio */
+
+.portfolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+    
+}
+
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    
+}
+
+.portfolio-item {
+    gap: 24px;
+    width: calc((100% - 48px) / 3);
+    
+}
+
+.portfolio-container{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+     width: 360px;
+     height: 120px;
+    border-top: none;
+    
+}
+
+.feature-title{
+    margin-bottom: 8px;
+}
+
+
+/* #endregion Our Portfolio */
+
+/* #region footer */
+
+.footer {
+    background: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-top: 16px;
+    display: inline-block;
+    margin-bottom: 16px;
+    
+}
+
+.footer-logo-span {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+    
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    max-width: 264px;
+}
+
+/* #endregion footer */
